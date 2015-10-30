@@ -1,0 +1,17 @@
+﻿<tests>
+  <add>
+    <first>1</first>
+    <second>2</second>
+    <sum>3</sum>
+  </add>
+  <add>
+    <first>29</first>
+    <second>15</second>
+    <sum>44</sum>
+  </add>
+  <add>
+    <first>10000</first>
+    <second>33333</second>
+    <sum>43333</sum>
+  </add>
+</tests>

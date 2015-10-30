@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{C91B7455-9D6C-4B77-A33F-0CA2C764927E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Wpf", "Calculator.Wpf\Calculator.Wpf.csproj", "{9C7E8D6B-1C8B-4312-8E3E-562F9EAFF2E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Tests", "Calculator.Tests\Calculator.Tests.csproj", "{29D77F41-170F-4F78-981E-4AD488C9B38A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8F660E6-168E-4BCF-90E9-FC445F84942B}"
+	ProjectSection(SolutionItems) = preProject
+		calculator.testsettings = calculator.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rogreen.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Calculator.Tests\\Calculator.Tests.csproj
+		SccProjectName1 = Calculator.Tests
+		SccLocalPath1 = Calculator.Tests
+		SccProjectUniqueName2 = Calculator.Wpf\\Calculator.Wpf.csproj
+		SccProjectName2 = Calculator.Wpf
+		SccLocalPath2 = Calculator.Wpf
+		SccProjectUniqueName3 = Calculator\\Calculator.csproj
+		SccProjectName3 = Calculator
+		SccLocalPath3 = Calculator
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C91B7455-9D6C-4B77-A33F-0CA2C764927E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C91B7455-9D6C-4B77-A33F-0CA2C764927E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C91B7455-9D6C-4B77-A33F-0CA2C764927E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C91B7455-9D6C-4B77-A33F-0CA2C764927E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C7E8D6B-1C8B-4312-8E3E-562F9EAFF2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C7E8D6B-1C8B-4312-8E3E-562F9EAFF2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C7E8D6B-1C8B-4312-8E3E-562F9EAFF2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C7E8D6B-1C8B-4312-8E3E-562F9EAFF2E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D77F41-170F-4F78-981E-4AD488C9B38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D77F41-170F-4F78-981E-4AD488C9B38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D77F41-170F-4F78-981E-4AD488C9B38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D77F41-170F-4F78-981E-4AD488C9B38A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

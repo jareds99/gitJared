@@ -1,0 +1,524 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Calculator.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Calculator.Fakes.ShimBuiltInRandom">
+            <summary>Shim type of Calculator.BuiltInRandom</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimBuiltInRandom.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimBuiltInRandom.#ctor(Calculator.BuiltInRandom)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimBuiltInRandom.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimBuiltInRandom.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimBuiltInRandom.Bind(Calculator.IRandom)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimBuiltInRandom.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimBuiltInRandom.Constructor">
+            <summary>Sets the shim of BuiltInRandom.BuiltInRandom()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimBuiltInRandom.GetRandomNumber">
+            <summary>Sets the shim of BuiltInRandom.GetRandomNumber()</summary>
+        </member>
+        <member name="T:Calculator.Fakes.ShimBuiltInRandom.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimBuiltInRandom.AllInstances.GetRandomNumber">
+            <summary>Sets the shim of BuiltInRandom.GetRandomNumber()</summary>
+        </member>
+        <member name="T:Calculator.Fakes.ShimCalculatorViewModel">
+            <summary>Shim type of Calculator.CalculatorViewModel</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimCalculatorViewModel.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimCalculatorViewModel.#ctor(Calculator.CalculatorViewModel)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimCalculatorViewModel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimCalculatorViewModel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimCalculatorViewModel.Bind(System.ComponentModel.INotifyPropertyChanged)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AddCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_AddCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AddCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_AddCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AddHoursCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_AddHoursCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AddHoursCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_AddHoursCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AddHoursObject">
+            <summary>Sets the shim of CalculatorViewModel.AddHours(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AddMinutesCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_AddMinutesCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AddMinutesCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_AddMinutesCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AddMinutesObject">
+            <summary>Sets the shim of CalculatorViewModel.AddMinutes(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AddObject">
+            <summary>Sets the shim of CalculatorViewModel.Add(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AddRandomCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_AddRandomCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AddRandomCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_AddRandomCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AddRandomObject">
+            <summary>Sets the shim of CalculatorViewModel.AddRandom(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AddSecondsCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_AddSecondsCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AddSecondsCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_AddSecondsCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AddSecondsObject">
+            <summary>Sets the shim of CalculatorViewModel.AddSeconds(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AppendKeysObject">
+            <summary>Sets the shim of CalculatorViewModel.AppendKeys(Object keyString)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.BackCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_BackCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.BackCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_BackCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.BackObject">
+            <summary>Sets the shim of CalculatorViewModel.Back(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.Calculate">
+            <summary>Sets the shim of CalculatorViewModel.Calculate()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.ConstructorIRandom">
+            <summary>Sets the shim of CalculatorViewModel.CalculatorViewModel(IRandom random)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.CurrentTimeGet">
+            <summary>Sets the shim of CalculatorViewModel.get_CurrentTime()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.CurrentTimeSetString">
+            <summary>Sets the shim of CalculatorViewModel.set_CurrentTime(String value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.CurrentValueGet">
+            <summary>Sets the shim of CalculatorViewModel.get_CurrentValue()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.CurrentValueSetInt32">
+            <summary>Sets the shim of CalculatorViewModel.set_CurrentValue(Int32 value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.DivideCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_DivideCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.DivideCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_DivideCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.DivideObject">
+            <summary>Sets the shim of CalculatorViewModel.Divide(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.EquateCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_EquateCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.EquateCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_EquateCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.EquateObject">
+            <summary>Sets the shim of CalculatorViewModel.Equate(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.KeyCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_KeyCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.KeyCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_KeyCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.MultiplyCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_MultiplyCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.MultiplyCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_MultiplyCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.MultiplyObject">
+            <summary>Sets the shim of CalculatorViewModel.Multiply(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.StoredValueGet">
+            <summary>Sets the shim of CalculatorViewModel.get_StoredValue()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.StoredValueSetInt32">
+            <summary>Sets the shim of CalculatorViewModel.set_StoredValue(Int32 value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.SubtractCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_SubtractCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.SubtractCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_SubtractCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.SubtractObject">
+            <summary>Sets the shim of CalculatorViewModel.Subtract(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel._ctorb__2ObjectElapsedEventArgs">
+            <summary>Sets the shim of CalculatorViewModel.&lt;.ctor&gt;b__2(Object _, ElapsedEventArgs __)</summary>
+        </member>
+        <member name="T:Calculator.Fakes.ShimCalculatorViewModel.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.AddCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_AddCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.AddCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_AddCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.AddHoursCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_AddHoursCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.AddHoursCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_AddHoursCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.AddHoursObject">
+            <summary>Sets the shim of CalculatorViewModel.AddHours(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.AddMinutesCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_AddMinutesCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.AddMinutesCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_AddMinutesCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.AddMinutesObject">
+            <summary>Sets the shim of CalculatorViewModel.AddMinutes(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.AddObject">
+            <summary>Sets the shim of CalculatorViewModel.Add(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.AddRandomCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_AddRandomCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.AddRandomCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_AddRandomCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.AddRandomObject">
+            <summary>Sets the shim of CalculatorViewModel.AddRandom(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.AddSecondsCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_AddSecondsCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.AddSecondsCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_AddSecondsCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.AddSecondsObject">
+            <summary>Sets the shim of CalculatorViewModel.AddSeconds(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.AppendKeysObject">
+            <summary>Sets the shim of CalculatorViewModel.AppendKeys(Object keyString)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.BackCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_BackCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.BackCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_BackCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.BackObject">
+            <summary>Sets the shim of CalculatorViewModel.Back(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.Calculate">
+            <summary>Sets the shim of CalculatorViewModel.Calculate()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.CurrentTimeGet">
+            <summary>Sets the shim of CalculatorViewModel.get_CurrentTime()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.CurrentTimeSetString">
+            <summary>Sets the shim of CalculatorViewModel.set_CurrentTime(String value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.CurrentValueGet">
+            <summary>Sets the shim of CalculatorViewModel.get_CurrentValue()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.CurrentValueSetInt32">
+            <summary>Sets the shim of CalculatorViewModel.set_CurrentValue(Int32 value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.DivideCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_DivideCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.DivideCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_DivideCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.DivideObject">
+            <summary>Sets the shim of CalculatorViewModel.Divide(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.EquateCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_EquateCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.EquateCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_EquateCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.EquateObject">
+            <summary>Sets the shim of CalculatorViewModel.Equate(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.KeyCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_KeyCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.KeyCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_KeyCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.MultiplyCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_MultiplyCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.MultiplyCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_MultiplyCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.MultiplyObject">
+            <summary>Sets the shim of CalculatorViewModel.Multiply(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.StoredValueGet">
+            <summary>Sets the shim of CalculatorViewModel.get_StoredValue()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.StoredValueSetInt32">
+            <summary>Sets the shim of CalculatorViewModel.set_StoredValue(Int32 value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.SubtractCommandGet">
+            <summary>Sets the shim of CalculatorViewModel.get_SubtractCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.SubtractCommandSetICommand">
+            <summary>Sets the shim of CalculatorViewModel.set_SubtractCommand(ICommand value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances.SubtractObject">
+            <summary>Sets the shim of CalculatorViewModel.Subtract(Object _)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimCalculatorViewModel.AllInstances._ctorb__2ObjectElapsedEventArgs">
+            <summary>Sets the shim of CalculatorViewModel.&lt;.ctor&gt;b__2(Object _, ElapsedEventArgs __)</summary>
+        </member>
+        <member name="T:Calculator.Fakes.ShimRelayCommand">
+            <summary>Shim type of Calculator.RelayCommand</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimRelayCommand.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimRelayCommand.#ctor(Calculator.RelayCommand)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimRelayCommand.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimRelayCommand.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimRelayCommand.Bind(System.Windows.Input.ICommand)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimRelayCommand.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimRelayCommand.CanExecuteChangedAddEventHandler">
+            <summary>Sets the shim of RelayCommand.add_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimRelayCommand.CanExecuteChangedRemoveEventHandler">
+            <summary>Sets the shim of RelayCommand.remove_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimRelayCommand.CanExecuteObject">
+            <summary>Sets the shim of RelayCommand.CanExecute(Object parameter)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimRelayCommand.Constructor">
+            <summary>Sets the shim of RelayCommand.RelayCommand()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimRelayCommand.ConstructorActionOfObject">
+            <summary>Sets the shim of RelayCommand.RelayCommand(Action`1&lt;Object&gt; action)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimRelayCommand.ExecuteObject">
+            <summary>Sets the shim of RelayCommand.Execute(Object parameter)</summary>
+        </member>
+        <member name="T:Calculator.Fakes.ShimRelayCommand.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimRelayCommand.AllInstances.CanExecuteChangedAddEventHandler">
+            <summary>Sets the shim of RelayCommand.add_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimRelayCommand.AllInstances.CanExecuteChangedRemoveEventHandler">
+            <summary>Sets the shim of RelayCommand.remove_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimRelayCommand.AllInstances.CanExecuteObject">
+            <summary>Sets the shim of RelayCommand.CanExecute(Object parameter)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimRelayCommand.AllInstances.ExecuteObject">
+            <summary>Sets the shim of RelayCommand.Execute(Object parameter)</summary>
+        </member>
+        <member name="T:Calculator.Fakes.ShimViewModelBase">
+            <summary>Shim type of Calculator.ViewModelBase</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimViewModelBase.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimViewModelBase.#ctor(Calculator.ViewModelBase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimViewModelBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimViewModelBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimViewModelBase.Bind(System.ComponentModel.INotifyPropertyChanged)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimViewModelBase.NotifyOfPropertyChangeOf1ExpressionOfFuncOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Linq.Expressions.Expression{System.Func{``0}}})">
+            <summary>Sets the shim of ViewModelBase.NotifyOfPropertyChange(Expression`1&lt;Func`1&lt;!!0&gt;&gt; property)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimViewModelBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimViewModelBase.Constructor">
+            <summary>Sets the shim of ViewModelBase.ViewModelBase()</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimViewModelBase.NotifyOfPropertyChangeString">
+            <summary>Sets the shim of ViewModelBase.NotifyOfPropertyChange(String property)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimViewModelBase.PropertyChangedAddPropertyChangedEventHandler">
+            <summary>Sets the shim of ViewModelBase.add_PropertyChanged(PropertyChangedEventHandler value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimViewModelBase.PropertyChangedRemovePropertyChangedEventHandler">
+            <summary>Sets the shim of ViewModelBase.remove_PropertyChanged(PropertyChangedEventHandler value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimViewModelBase.RaisePropertyChangedStringBoolean">
+            <summary>Sets the shim of ViewModelBase.RaisePropertyChanged(String property, Boolean verifyProperty)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimViewModelBase._ctorb__0ObjectPropertyChangedEventArgs">
+            <summary>Sets the shim of ViewModelBase.&lt;.ctor&gt;b__0(Object param0, PropertyChangedEventArgs param1)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimViewModelBase._propertyChangedAddPropertyChangedEventHandler">
+            <summary>Sets the shim of ViewModelBase.add__propertyChanged(PropertyChangedEventHandler value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimViewModelBase._propertyChangedRemovePropertyChangedEventHandler">
+            <summary>Sets the shim of ViewModelBase.remove__propertyChanged(PropertyChangedEventHandler value)</summary>
+        </member>
+        <member name="T:Calculator.Fakes.ShimViewModelBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Calculator.Fakes.ShimViewModelBase.AllInstances.NotifyOfPropertyChangeOf1ExpressionOfFuncOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{Calculator.ViewModelBase,System.Linq.Expressions.Expression{System.Func{``0}}})">
+            <summary>Sets the shim of ViewModelBase.NotifyOfPropertyChange(Expression`1&lt;Func`1&lt;!!0&gt;&gt; property)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimViewModelBase.AllInstances.NotifyOfPropertyChangeString">
+            <summary>Sets the shim of ViewModelBase.NotifyOfPropertyChange(String property)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimViewModelBase.AllInstances.PropertyChangedAddPropertyChangedEventHandler">
+            <summary>Sets the shim of ViewModelBase.add_PropertyChanged(PropertyChangedEventHandler value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimViewModelBase.AllInstances.PropertyChangedRemovePropertyChangedEventHandler">
+            <summary>Sets the shim of ViewModelBase.remove_PropertyChanged(PropertyChangedEventHandler value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimViewModelBase.AllInstances.RaisePropertyChangedStringBoolean">
+            <summary>Sets the shim of ViewModelBase.RaisePropertyChanged(String property, Boolean verifyProperty)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimViewModelBase.AllInstances._propertyChangedAddPropertyChangedEventHandler">
+            <summary>Sets the shim of ViewModelBase.add__propertyChanged(PropertyChangedEventHandler value)</summary>
+        </member>
+        <member name="P:Calculator.Fakes.ShimViewModelBase.AllInstances._propertyChangedRemovePropertyChangedEventHandler">
+            <summary>Sets the shim of ViewModelBase.remove__propertyChanged(PropertyChangedEventHandler value)</summary>
+        </member>
+        <member name="T:Calculator.Fakes.StubBuiltInRandom">
+            <summary>Stub type of Calculator.BuiltInRandom</summary>
+        </member>
+        <member name="M:Calculator.Fakes.StubBuiltInRandom.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Calculator.Fakes.StubBuiltInRandom.InitializeStub">
+            <summary>Initializes a new instance of type StubBuiltInRandom</summary>
+        </member>
+        <member name="P:Calculator.Fakes.StubBuiltInRandom.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Calculator.Fakes.StubBuiltInRandom.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Calculator.Fakes.StubBuiltInRandom.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Calculator.Fakes.StubCalculatorViewModel">
+            <summary>Stub type of Calculator.CalculatorViewModel</summary>
+        </member>
+        <member name="M:Calculator.Fakes.StubCalculatorViewModel.#ctor(Calculator.IRandom)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Calculator.Fakes.StubCalculatorViewModel.InitializeStub">
+            <summary>Initializes a new instance of type StubCalculatorViewModel</summary>
+        </member>
+        <member name="P:Calculator.Fakes.StubCalculatorViewModel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Calculator.Fakes.StubCalculatorViewModel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Calculator.Fakes.StubCalculatorViewModel.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Calculator.Fakes.StubIRandom">
+            <summary>Stub type of Calculator.IRandom</summary>
+        </member>
+        <member name="M:Calculator.Fakes.StubIRandom.#ctor">
+            <summary>Initializes a new instance of type StubIRandom</summary>
+        </member>
+        <member name="M:Calculator.Fakes.StubIRandom.c::Calculator#IRandom#GetRandomNumber">
+            <summary>Sets the stub of IRandom.GetRandomNumber()</summary>
+        </member>
+        <member name="F:Calculator.Fakes.StubIRandom.GetRandomNumber">
+            <summary>Sets the stub of IRandom.GetRandomNumber()</summary>
+        </member>
+        <member name="T:Calculator.Fakes.StubRelayCommand">
+            <summary>Stub type of Calculator.RelayCommand</summary>
+        </member>
+        <member name="M:Calculator.Fakes.StubRelayCommand.#ctor(System.Action{System.Object})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Calculator.Fakes.StubRelayCommand.InitializeStub">
+            <summary>Initializes a new instance of type StubRelayCommand</summary>
+        </member>
+        <member name="P:Calculator.Fakes.StubRelayCommand.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Calculator.Fakes.StubRelayCommand.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Calculator.Fakes.StubRelayCommand.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Calculator.Fakes.StubViewModelBase">
+            <summary>Stub type of Calculator.ViewModelBase</summary>
+        </member>
+        <member name="M:Calculator.Fakes.StubViewModelBase.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Calculator.Fakes.StubViewModelBase.InitializeStub">
+            <summary>Initializes a new instance of type StubViewModelBase</summary>
+        </member>
+        <member name="P:Calculator.Fakes.StubViewModelBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Calculator.Fakes.StubViewModelBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Calculator.Fakes.StubViewModelBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
